@@ -18,7 +18,9 @@ O objetivo dos containers é criar essa independência: a habilidade de executar
 
 # Virtualização *vs* *Container*
 Não confunda Virtualização com Containers, sistemas virtualizados dependem de softwares virtualizadores para serem executados, sistemas “conteinerizados” depedem diretamente do sistema operacional e suas bibliotecas nativas e é claro, de alguma tecnologia que forneça ao sistema a capacidade de isolar e gerenciar grupos de processos (LXC ou Docker se preferir).
+
 ---
+
 !["Virtualização vs Container"](https://www.redhat.com/cms/managed-files/virtualization-vs-containers.png "Virtualização vs Container")
 
 # Imagem *vs* *Container*
@@ -32,7 +34,7 @@ Em 2008, o Docker entrou em cena (por meio do dotCloud) com sua tecnologia de co
 
 # Prática 
 
-Acesse o material da parte [prática](../pratica).
+Acesse o material da parte [prática](../pratica/01-hello-world.md).
 
 # Fontes
 

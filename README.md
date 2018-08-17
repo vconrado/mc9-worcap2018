@@ -41,10 +41,17 @@ Verifique se seu usuário consegue acessar o docker:
 docker run hello-world
 ```
 
-## 2. Criação de conta no Docker Hub (Opcional)
-
-Crie uma conta no [Docker Hub](https://hub.docker.com/) para que as imagens criadas durante o minicurso possam ser salvas. 
-
-# Material
+## 2. Download do Material
 
 O curso possui material para a parte [teórica](teoria) e para a parte [prática](pratica).
+Para o curso, baixe o material para o seu computador.  
+Você pode fazer isso usando o git:  
+```bash
+git clone https://github.com/vconrado/mc9-worcap2018.git
+```
+
+Ou fazendo download [nesse link](https://codeload.github.com/vconrado/mc9-worcap2018/zip/master).
+## 3. Criação de conta no Docker Hub (Opcional)
+
+Durante o minicurso será mostrado como compartilhar imagens de containers utilizando o Docker Hub. Para isso, será necessário que cada aluno tenha uma conta no [Docker Hub](https://hub.docker.com/). 
+

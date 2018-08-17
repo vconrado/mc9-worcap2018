@@ -12,11 +12,11 @@
 **Resumo**:  
 Será criado um ambiente a partir de uma imagem Ubuntu 16.04 e será instalado o servidor [NGINX](https://www.nginx.com/). 
 
-## Escolhendo a imagem
+## 1. Escolhendo a imagem
 
 O [Docker Hub](https://hub.docker.com/) é um repositório de imagens para containers. São disponibilizadas [imagens oficiais](https://docs.docker.com/docker-hub/official_repos/) ou imagens compartilhadas por [usuários](https://hub.docker.com/u/vconrado).
 
-## Executando o container 
+## 2. Executando o container 
 
 ```bash
 docker run --name nginx1 ubuntu:16.04
@@ -33,7 +33,7 @@ Veja os processos que estão rodando no ambiente:
 ps -ef
 ```
 
-## Instalando o ngnix
+## 3. Instalando o ngnix
 No **terminal do container**, digite: 
 ```bash
 apt-get update
@@ -53,12 +53,12 @@ Abra o brower e aponte para o **IP do container nginx**.
 ---
 
 
-## Salvando a imagem do container
+## 4. Salvando a imagem do container
 ```bash
 docker commit nginx1 nginx:1.0
 ```
 
-## Removendo e criando novo container com a imagem salva
+## 5. Removendo e criando novo container com a imagem salva
 
 Removendo ...
 ```bash
@@ -81,7 +81,7 @@ docker run -it --name nginx3 nginx:1.0 bash
 
 Abra o browser e confira se os dois estão funcionando.
 
-# Mapeando arquivos do host no container
+## 6. Mapeando arquivos do host no container
 ```bash
 docker run -it --name nginx4 -v $PWD/html/:/var/www/html nginx:1.0 bash
 ls /var/www/html
@@ -92,25 +92,29 @@ Saida do container digitando:
 ```bash
 exit
 
-# Reiniciando o container
+## 7. Reiniciando o container
 ```bash
 docker start nginx4
 ```
 
-# Vinculando ao terminal do container
+## 8. Vinculando ao terminal do container
 ```bash
 docker attach nginx4
 ```
 
-# Saindo do container sem finalizá-lo
+## 9. Saindo do container sem finalizá-lo
 ```bash
 Ctrl+p+q
 ```
 
-# Executando novo terminal em container em execução
+## 10. Executando novo terminal em container em execução
 ```bash
 docker exec -it nginx4 bash
 ps -ef
 ```
+
+## 11. Próximos passos
+
+Acesse [aqui](03-dockerfile.md) a próxima atividade.
 
 

@@ -1,6 +1,11 @@
 # Rodando o primeiro *container*
 
-**Objetivo**: conhecer os comandos básicos para o gerenciamento de um container Docker.
+![Hello World !](../imgs/hello_world.jpg "Hello World !")
+
+**Objetivo**:  
+- conhecer os comandos básicos para o gerenciamento de um container Docker.
+
+
 
 ## 1. Executando a imagem hello-world
 
@@ -38,3 +43,8 @@ Documentação [**docker rm**](https://docs.docker.com/engine/reference/commandl
 docker rmi hello-world
 ```
 Documentação [**docker rmi**](https://docs.docker.com/engine/reference/commandline/rmi/).
+
+## 7. Próximos passos
+
+Acesse [aqui](02-nginx.md) a próxima atividade.
+
