@@ -6,9 +6,9 @@
  **Local**: LIT  
  
 **Ministrantes:**  
-- [Vitor Conrado Faria Gomes, CAP/INPE](http://lattes.cnpq.br/2864513791602949)  
-- [Raphael Willian da Costa](http://lattes.cnpq.br/7394226786935007)
-- [Gilberto Ribeiro de Queiroz](http://lattes.cnpq.br/9981634193003068)
+- [Vitor Conrado Faria Gomes](http://lattes.cnpq.br/2864513791602949), CAP/INPE  
+- [Raphael Willian da Costa](http://lattes.cnpq.br/7394226786935007), DATAINFO
+- [Gilberto Ribeiro de Queiroz](http://lattes.cnpq.br/9981634193003068), DPI/INPE
 
 **Resumo**:  
 Docker é uma tecnologia que fornece virtualização em nível do sistema operacional, evitando a sobrecarga da execução de máquinas virtuais. Esses ambientes virtuais, conhecidos por *containers*, permitem o empacotamento de aplicações e suas dependências, facilitando a implantação e portabilidade de sistemas.  
@@ -58,7 +58,7 @@ docker run hello-world
 
 Você deverá ver uma mensagem parecida com a apresentada na imagem abaixo.
 
-![Hello World !](../imgs/docker_hello_world.png "Hello World !")
+![Hello World !](./imgs/docker_hello_world.png "Hello World !")
 ## 3. Criação de conta no Docker Hub (Opcional)
 
 Durante o minicurso será mostrado como compartilhar imagens de containers utilizando o Docker Hub. Para isso, será necessário que cada aluno tenha uma conta no [Docker Hub](https://hub.docker.com/). 
