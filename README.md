@@ -22,33 +22,49 @@ Para a realização das atividades práticas do minicurso é **necessário** que
 
 Para o curso, é necessário instalar o **Docker** no seu computador. Siga as instruções conforme seu sistema operacional:
 
-- Linux
+### 1.1 Linux
+
+Siga as instruções conforme sua distribuição:  
   - [Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
   - [Debian](https://docs.docker.com/install/linux/docker-ce/debian/)
   - [CentOS](https://docs.docker.com/install/linux/docker-ce/centos/)
   - [Fedora](https://docs.docker.com/install/linux/docker-ce/fedora/)
-- [Windows](https://docs.docker.com/docker-for-windows/install/)
-- [Mac OS](https://docs.docker.com/docker-for-mac/install/)
-
-**Atenção<sup>1</sup>**: Pode ser necessário criar uma conta no Docker para fazer o download para Windows ou Mac.  
-
-**Atenção<sup>2</sup>**: Para usuários de versões anteriores ao Windows 10, é necessário instalar [outra versão](https://docs.docker.com/toolbox/overview/) do Docker.
-
-Para usuários **Linux** execute os seguintes comandos após a instalação:
+  
+  
+Após a instalação, não se esqueça de executar os seguintes comandos:
 
 ```bash
 sudo usermod -aG docker $USER
 ```
-### 1.1 Testando a instalação:
-Para testar a instalar, abra um terminal e digite: 
+
+### 1.2 Windows
+Siga [essas instruções](https://store.docker.com/editions/community/docker-ce-desktop-windows) para instalar o Docker no seu computador. Pode ser necessário criar uma conta no Docker para fazer o download. 
+
+
+**Atenção**: Para Windows anteriores ao 10, é necessária a instalação de outra versão do Docker. Se esse for o seu caso, siga as intruções [dessa página](https://docs.docker.com/toolbox/overview/).
+
+
+### 1.3 Mac OS
+Siga [essas instruções](https://docs.docker.com/docker-for-mac/install/) para instalar o Docker no seu computador. Pode ser necessário criar uma conta no Docker para fazer o download. 
+
+
+
+## 2. Testando a instalação:
+Certifique-se que sua instalação foi realizada corretamente executando o seguinte comando no terminal:
 
 ```bash
 docker run hello-world
 ```
 
+Você deverá ver uma mensagem parecida com a apresentada na imagem abaixo.
+
+![Hello World !](../imgs/docker_hello_world.png "Hello World !")
+## 3. Criação de conta no Docker Hub (Opcional)
+
+Durante o minicurso será mostrado como compartilhar imagens de containers utilizando o Docker Hub. Para isso, será necessário que cada aluno tenha uma conta no [Docker Hub](https://hub.docker.com/). 
 
 
-## 2. Download do Material
+## 4. Download do Material
 
 O curso possui material para a parte [teórica](teoria) e para a parte [prática](pratica).
 Para o curso, baixe o material para o seu computador.  
@@ -58,7 +74,4 @@ git clone https://github.com/vconrado/mc9-worcap2018.git
 ```
 
 Ou fazendo download [nesse link](https://codeload.github.com/vconrado/mc9-worcap2018/zip/master).
-## 3. Criação de conta no Docker Hub (Opcional)
-
-Durante o minicurso será mostrado como compartilhar imagens de containers utilizando o Docker Hub. Para isso, será necessário que cada aluno tenha uma conta no [Docker Hub](https://hub.docker.com/). 
 
