@@ -17,7 +17,6 @@ Esse curso aborda o funcionamento da tecnologia Docker, a configuração de cont
 # Requisitos
 
 ## 1. Instalação do Docker
-
 Para a realização das atividades práticas do minicurso é **necessário** que o participante leve um notebook que, preferencialmente, tenha acesso a rede.  
 
 Para o curso, é necessário instalar o **Docker** no seu computador. Siga as instruções conforme seu sistema operacional:
@@ -40,14 +39,10 @@ sudo usermod -aG docker $USER
 ### 1.2 Windows
 Siga [essas instruções](https://store.docker.com/editions/community/docker-ce-desktop-windows) para instalar o Docker no seu computador. Pode ser necessário criar uma conta no Docker para fazer o download. 
 
-
 **Atenção**: Para Windows anteriores ao 10, é necessária a instalação de outra versão do Docker. Se esse for o seu caso, siga as intruções [dessa página](https://docs.docker.com/toolbox/overview/).
-
 
 ### 1.3 Mac OS
 Siga [essas instruções](https://docs.docker.com/docker-for-mac/install/) para instalar o Docker no seu computador. Pode ser necessário criar uma conta no Docker para fazer o download. 
-
-
 
 ## 2. Testando a instalação:
 Certifique-se que sua instalação foi realizada corretamente executando o seguinte comando no terminal:
@@ -60,18 +55,17 @@ Você deverá ver uma mensagem parecida com a apresentada na imagem abaixo.
 
 ![Hello World !](./imgs/docker_hello_world.png "Hello World !")
 ## 3. Criação de conta no Docker Hub (Opcional)
-
 Durante o minicurso será mostrado como compartilhar imagens de containers utilizando o Docker Hub. Para isso, será necessário que cada aluno tenha uma conta no [Docker Hub](https://hub.docker.com/). 
 
-
 ## 4. Download do Material
+Em breve !!!
 
-O curso possui material para a parte [teórica](teoria) e para a parte [prática](pratica).
+<!--O curso possui material para a parte [teórica](teoria) e para a parte [prática](pratica).
 Para o curso, baixe o material para o seu computador.  
 Você pode fazer isso usando o git:  
 ```bash
 git clone https://github.com/vconrado/mc9-worcap2018.git
-```
-
+``` 
 Ou fazendo download [nesse link](https://codeload.github.com/vconrado/mc9-worcap2018/zip/master).
+-->
 
