@@ -20,26 +20,33 @@ Esse curso aborda o funcionamento da tecnologia Docker, a configuração de cont
 
 Para a realização das atividades práticas do minicurso é **necessário** que o participante leve um notebook que, preferencialmente, tenha acesso a rede.  
 
-Para o curso, e necessário instalar o **Docker** no seu computador. Siga as instruções conforme seu sistema operacional:
+Para o curso, é necessário instalar o **Docker** no seu computador. Siga as instruções conforme seu sistema operacional:
 
 - Linux
   - [Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
   - [Debian](https://docs.docker.com/install/linux/docker-ce/debian/)
   - [CentOS](https://docs.docker.com/install/linux/docker-ce/centos/)
   - [Fedora](https://docs.docker.com/install/linux/docker-ce/fedora/)
-- [Windows](https://docs.docker.com/docker-for-windows/install/#start-docker-for-windows)
+- [Windows](https://docs.docker.com/docker-for-windows/install/)
 - [Mac OS](https://docs.docker.com/docker-for-mac/install/)
+
+**Atenção<sup>1</sup>**: Pode ser necessário criar uma conta no Docker para fazer o download para Windows ou Mac.  
+
+**Atenção<sup>2</sup>**: Para usuários de versões anteriores ao Windows 10, é necessário instalar [outra versão](https://docs.docker.com/toolbox/overview/) do Docker.
 
 Para usuários **Linux** execute os seguintes comandos após a instalação:
 
 ```bash
 sudo usermod -aG docker $USER
 ```
+### 1.1 Testando a instalação:
+Para testar a instalar, abra um terminal e digite: 
 
-Verifique se seu usuário consegue acessar o docker:
 ```bash
 docker run hello-world
 ```
+
+
 
 ## 2. Download do Material
 
