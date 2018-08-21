@@ -196,6 +196,6 @@ Para deslogar, basta usar
 docker logout
 ```
 
-## Próximos passos
+## 6. Próximos passos
 
 Acesse [aqui](04-pg_ws.md) a próxima atividade.

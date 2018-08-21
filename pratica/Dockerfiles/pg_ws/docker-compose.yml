@@ -1,0 +1,17 @@
+version: '2'
+
+networks:
+    pg_ws_network:
+
+services:
+    pg:
+        image: "pg:2.0"
+        stdin_open: true
+        tty: true
+        networks:
+            - pg_ws_network
+    ws:
+        image: "ws:1.0"
+        networks:
+            - pg_ws_network
+

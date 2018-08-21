@@ -18,7 +18,6 @@ if [ ! -f /root/startup.lock ]; then
     sudo -u postgres psql -U postgres -d postgres -c "alter user postgres with password '$PG_PASSWORD';"
 
     echo "Creating database worcap ..."
-    #sudo -u postgres createdb -E UTF8 -T template0 worcap
     sudo -u postgres psql -U postgres -c "create database worcap with template = template0 encoding = 'UTF8';"
 
     echo "Creating table usuario ..."
