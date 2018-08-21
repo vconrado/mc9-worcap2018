@@ -55,10 +55,10 @@ Você deverá ver uma mensagem parecida com a apresentada na imagem abaixo.
 
 ![Hello World !](./imgs/docker_hello_world.png "Hello World !")
 
-## 3. Criação de conta no Docker Hub (Opcional)
+## 3. Criação de conta no Docker Hub
 Durante o minicurso será mostrado como compartilhar imagens de containers utilizando o Docker Hub. Para isso, será necessário que cada aluno tenha uma conta no [Docker Hub](https://hub.docker.com/). 
 
-## 4. Docker compose
+## 4. Instalar Docker compose
 
 Se você tiver python e pip instalados em seu computador, vc pode instalar o docker-compose usando:
 ```bash
