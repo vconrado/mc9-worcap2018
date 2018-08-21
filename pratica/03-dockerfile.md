@@ -51,6 +51,7 @@ Documentação [**docker build**](https://docs.docker.com/engine/reference/comma
 docker run -it --name nginx5 nginx:1.1
 ```
 
+![Dockerfile, Imagem e Container](../imgs/dockerfile_image_container.png "Dockerfile, Imagem e Container")
 
 ## 3. Dockerfile servidor PostgreSQL
 
