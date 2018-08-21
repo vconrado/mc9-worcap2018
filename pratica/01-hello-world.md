@@ -6,7 +6,6 @@
 - conhecer os comandos básicos para o gerenciamento de um container Docker.
 
 
-
 ## 1. Executando a imagem hello-world
 
 ```bash

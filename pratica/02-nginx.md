@@ -7,7 +7,6 @@
     - mapear volume  
     - salvar a imagem  
     - mais comandos  
-//    - enviar para o docker hub  
 
 **Resumo**:  
 Será criado um ambiente a partir de uma imagem Ubuntu 16.04 e será instalado o servidor [NGINX](https://www.nginx.com/). 
@@ -91,8 +90,9 @@ ls /var/www/html
 Saida do container digitando:
 ```bash
 exit
+```
 
-## 7. Reiniciando o container
+## 7. Iniciando novamente o container
 ```bash
 docker start nginx4
 ```

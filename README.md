@@ -12,7 +12,7 @@
 
 **Resumo**:  
 Docker é uma tecnologia que fornece virtualização em nível do sistema operacional, evitando a sobrecarga da execução de máquinas virtuais. Esses ambientes virtuais, conhecidos por *containers*, permitem o empacotamento de aplicações e suas dependências, facilitando a implantação e portabilidade de sistemas.  
-Esse curso aborda o funcionamento da tecnologia Docker, a configuração de containers através de Dockerfile, o compartilhamento de imagens, a preparação de um ambiente com múltiplos containers e ferramentas para o gerenciamento de containers. O curso terá conteúdo teórico e parte prática. Durante a parte prática, os participantes irão criar um ambiente com servidor web e banco de dados utilizando múltiplos containers Docker. 
+Esse curso aborda o funcionamento da tecnologia Docker, a configuração de containers através de Dockerfile, o compartilhamento de imagens, a preparação de um ambiente com múltiplos containers e ferramentas para o gerenciamento de containers. O curso terá conteúdo teórico e parte prática. Durante a parte prática, os participantes irão apresender a criar e configurar containers Docker. Além disso, será criado um ambiente com banco de dados e serviço web utilizando múltiplos containers Docker. Ao final, serão indicadas ferramentas para gerenciamento de containers Docker.
 
 # Requisitos
 
@@ -39,7 +39,7 @@ sudo usermod -aG docker $USER
 ### 1.2 Windows
 Siga [essas instruções](https://store.docker.com/editions/community/docker-ce-desktop-windows) para instalar o Docker no seu computador. Pode ser necessário criar uma conta no Docker para fazer o download. 
 
-**Atenção**: Para Windows anteriores ao 10, é necessária a instalação de outra versão do Docker. Se esse for o seu caso, siga as intruções [dessa página](https://docs.docker.com/toolbox/overview/).
+> **Atenção**: Para Windows anteriores ao 10, é necessária a instalação de outra versão do Docker. Se esse for o seu caso, siga as intruções [dessa página](https://docs.docker.com/toolbox/overview/).
 
 ### 1.3 Mac OS
 Siga [essas instruções](https://docs.docker.com/docker-for-mac/install/) para instalar o Docker no seu computador. Pode ser necessário criar uma conta no Docker para fazer o download. 

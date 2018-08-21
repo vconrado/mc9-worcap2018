@@ -12,7 +12,7 @@
 ---
 Um container Linux é um conjunto de processos que são isolados do resto do sistema. Esses processos são executados a partir de uma imagem distinta que fornece todos os arquivos necessários a eles [[1]](https://www.redhat.com/pt-br/topics/containers/whats-a-linux-container).
 
-![Container](https://www.redhat.com/cms/managed-files/what-is-a-container.png "Container")
+![Container](../imgs/what-is-a-container.png "Container")
 
 O objetivo dos containers é criar essa independência: a habilidade de executar diversos processos e aplicativos separadamente para utilizar melhor a infraestrutura e, ao mesmo tempo, manter a segurança que você teria em sistemas separados.
 
@@ -21,7 +21,7 @@ Não confunda Virtualização com Containers, sistemas virtualizados dependem de
 
 ---
 
-!["Virtualização vs Container"](https://www.redhat.com/cms/managed-files/virtualization-vs-containers.png "Virtualização vs Container")
+!["Virtualização vs Container"](../imgs/virtualization-vs-containers.png "Virtualização vs Container")
 
 # Imagem *vs* *Container*
 
