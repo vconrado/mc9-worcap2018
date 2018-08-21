@@ -4,26 +4,27 @@ LABEL maintainer="Vitor Gomes <vconrado@gmail.com>"
 EXPOSE 5432
 
 ENV PG_PASSWORD=dbpass
+ENV PGDATA=/var/lib/postgresql/data
 
-VOLUME /var/lib/postgresql/9.5/main
+VOLUME /var/lib/postgresql/data
 
 RUN apt-get update \
     && apt-get install -y sudo postgresql-9.5 \
     && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-RUN mkdir /data
+RUN mkdir -p $PGDATA \
+    && chown -R postgres:postgres $PGDATA \
+    && chmod o-rxw $PGDATA \
+    && echo "export PGDATA=$PGDATA" >> /etc/bash.bashrc \
+    && echo "data_directory = '$PGDATA'" >> /etc/postgresql/9.5/main/postgresql.conf \
+    && mkdir -p /data
+
+
+COPY files/entrypoint.sh /entrypoint.sh
 
 COPY files/create_table.sql /data
 COPY files/insert_data.sql /data
 
-RUN chmod o+r /data
-
-COPY files/pg_hba.conf /etc/postgresql/9.5/main/
-COPY files/postgresql.conf /etc/postgresql/9.5/main/
-
-RUN chown -R postgres:postgres /etc/postgresql/9.5/main/ \
-    && chmod g+r /etc/postgresql/9.5/main/*
-
-COPY files/entrypoint.sh /entrypoint.sh
+RUN chown -R postgres:postgres /data
 
 ENTRYPOINT  ["/entrypoint.sh"]

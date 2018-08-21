@@ -19,9 +19,7 @@ RUN mkdir -p $PGDATA \
     && echo "data_directory = '$PGDATA'" >> /etc/postgresql/9.5/main/postgresql.conf
 
 
-
 COPY files/entrypoint.sh /entrypoint.sh
-
 
 
 ENTRYPOINT  ["/entrypoint.sh"]

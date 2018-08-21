@@ -1,6 +1,6 @@
-CREATE TABLE usuario(
+CREATE TABLE minicurso(
     id  smallint NOT NULL,
-    nome character varying,
-    email character varying,
-    CONSTRAINT pk_usuario PRIMARY KEY (id)
+    titulo character varying,
+    ministrante character varying,
+    CONSTRAINT pk_minicurso PRIMARY KEY (id)
 )

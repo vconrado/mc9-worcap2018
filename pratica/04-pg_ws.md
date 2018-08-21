@@ -27,7 +27,13 @@ Remova os containers registrados:
 docker rm nome-do-container
 ```
 
-# 2. 
+# 2. Dockerfiles
+
+Nessa prática serão executados dois containers:  
+    - PostgreSQL com registros de minicursos;  
+    - WebService para requisição de minicursos.  
+    
+
 
 
 

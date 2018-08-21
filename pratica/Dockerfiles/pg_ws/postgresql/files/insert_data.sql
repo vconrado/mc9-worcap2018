@@ -1,9 +1,13 @@
-INSERT INTO usuario (id, nome, email)
+INSERT INTO minicurso (id, titulo, ministrante)
     VALUES
-    (1, 'user 1', 'user1@gmail.com'),
-    (2, 'user 2', 'user2@gmail.com'),
-    (3, 'user 3', 'user3@gmail.com'),
-    (4, 'user 4', 'user4@gmail.com'),
-    (5, 'user 5', 'user5@gmail.com'),
-    (6, 'user 6', 'user6@gmail.com'),
-    (7, 'user 7', 'user7@gmail.com');
+    (1, 'MC1 - Data Science', 'Dr. Rafael Santos'),
+    (3, 'MC3 - Spatiotemporal Data Analysis: An Introduction', 'Dr. Reinaldo R. Rosa'),
+    (7, 'MC7 - Paradigmas Atuais de Programação Paralela', 'Dr. Celso Mendes'),
+    (2, 'MC2 - Introdução ao GitHub','Dr. Pedro Andrade'),
+    (4, 'MC4 - Séries temporais de imagens de satélite em R','Dr. Gilberto R. Queiroz e Doutorando Rolf Simões'),
+    (5, 'MC5 - Processamento de imagens em tempo real: abordagens para aplicações de Drones','Dr. Elcio H. Shiguemori'),
+    (6, 'MC6 - Divulgação Científica', 'Dr. Ricardo S. Oyarzabal'),
+    (8, 'MC8 - Satellite Image Time Series Clustering using SOM','Dra. Karine Ferreira e Doutoranda Lorena Santos'),
+    (9, 'MC9 - Docker: introdução à administração de containers','Doutorando Vitor Gomes e Raphael Costa');
+
+
