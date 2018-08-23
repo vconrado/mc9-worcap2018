@@ -73,9 +73,8 @@ sudo apt-get install docker-compose
 Para outras situações, siga [essas instruções](https://docs.docker.com/compose/install/). 
 
 ## 4. Download do Material
-Em breve !!!
 
-<!--O curso possui material para a parte [teórica](teoria) e para a parte [prática](pratica).
+O curso possui material para a parte [teórica](apresentacao.pdf) e para a parte [prática](pratica).
 Para o curso, baixe o material para o seu computador.  
 Você pode fazer isso usando o git:  
 ```bash
