@@ -96,8 +96,8 @@ Abra o browser e confira se os dois estão funcionando.
 ````bash
 docker run -it -p 8080:80 --name nginx4 nginx:1.0 bash
 ````
-Abra o browser apontando para o endereço do seu host [http://127.0.0.1:8080](http://127.0.0.1:8080).
-
+Abra o browser apontando para o endereço do seu host [http://127.0.0.1:8080](http://127.0.0.1:8080)	.
+> Para usuários Windows, talvez seja necessário acessar através do IP da máquina virtual [http://192.168.99.100:8080])(http://192.168.99.100:8080).
 
 ## 7. Mapeando arquivos do host no container
 ```bash
