@@ -52,6 +52,7 @@ docker inspect nginx1
 
 Abra o brower e aponte para o **IP do container nginx**.
 
+
 ---
 ![Welcome nginx!](../imgs/welcome_nginx.png "Welcome nginx!")
 ---
@@ -87,9 +88,20 @@ Abra o browser e confira se os dois estão funcionando.
 
 ![Image container](../imgs/image_container.png "Image container")
 
-## 6. Mapeando arquivos do host no container
+
+## 6. Mapeando portas entre container e host
+
+É possível associar uma porta do host em uma porta do container, para isso faça:
+
+````bash
+docker run -it -p 8080:80 --name nginx4 nginx:1.0 bash
+````
+Abra o browser apontando para o endereço do seu host (http://127.0.0.1:8080)[http://127.0.0.1:8080].
+
+
+## 7. Mapeando arquivos do host no container
 ```bash
-docker run -it --name nginx4 -v $PWD/html/:/var/www/html nginx:1.0 bash
+docker run -it --name nginx5 -v $PWD/html/:/var/www/html nginx:1.0 bash
 ls /var/www/html
 /etc/init.d/nginx start
 ```
@@ -99,28 +111,28 @@ Saida do container digitando:
 exit
 ```
 
-## 7. Iniciando novamente o container
+### 7.1 Iniciando novamente o container
 ```bash
-docker start nginx4
+docker start nginx5
 ```
 
-## 8. Vinculando ao terminal do container
+### 7.2 Vinculando ao terminal do container
 ```bash
-docker attach nginx4
+docker attach nginx5
 ```
 
-## 9. Saindo do container sem finalizá-lo
+## 8. Saindo do container sem finalizá-lo
 ```bash
 Ctrl+p+q
 ```
 
-## 10. Executando novo terminal em container em execução
+## 9. Executando novo terminal em container em execução
 ```bash
-docker exec -it nginx4 bash
+docker exec -it nginx5 bash
 ps -ef
 ```
 
-## 11. Próximos passos
+## 10. Próximos passos
 
 Acesse [aqui](03-dockerfile.md) a próxima atividade.
 
