@@ -122,7 +122,7 @@ docker run -it --name pg pg:2.0
 Verifique se os dados foram carregados corretamente:
 
 ```bash
-sudo -u postgres psql -U postgres -c "SELECT * FROM minicursos;"
+sudo -u postgres psql -U postgres -d worcap -c "SELECT * FROM minicurso;" 
 ```
 
 Em outro terminal, execute o webservice:

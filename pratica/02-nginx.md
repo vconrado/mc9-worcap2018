@@ -22,6 +22,11 @@ docker run --name nginx1 ubuntu:16.04
 ```
 Documentação [**docker run**](https://docs.docker.com/engine/reference/commandline/run/).
 
+Removendo o container:
+```bash
+docker rm nginx1
+```
+
 Rodando o *bash* no container 
 ```bash
 docker run -it --name nginx1 ubuntu:16.04 bash
@@ -79,6 +84,8 @@ docker run -it --name nginx3 nginx:1.0 bash
 ```
 
 Abra o browser e confira se os dois estão funcionando.
+
+![Image container](../imgs/image_container.png "Image container")
 
 ## 6. Mapeando arquivos do host no container
 ```bash

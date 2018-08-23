@@ -20,7 +20,7 @@ if [ ! -f /root/startup.lock ]; then
     echo "Creating database worcap ..."
     sudo -u postgres psql -U postgres -c "create database worcap with template = template0 encoding = 'UTF8';"
 
-    echo "Creating table usuario ..."
+    echo "Creating table minicurso ..."
     sudo -u postgres psql -U postgres -d worcap -f /data/create_table.sql
 
     echo "Inserting data ..."

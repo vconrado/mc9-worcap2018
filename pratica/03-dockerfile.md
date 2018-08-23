@@ -11,6 +11,8 @@
 
 É um arquivo de definição de uma imagem Docker. Pode ser comparado ao *Makefile* do Docker. Ele fornece a *receita* para a construção de uma imagem Docker. O Dockerfile é usado para automatizar a configuração de *containers* e permite o compartilhamento facilitado de imagens Docker, sem a necessidade de fazer upload/download de muitos dados. 
 
+![Dockerfile, Imagem e Container](../imgs/dockerfile_image_container.png "Dockerfile, Imagem e Container")
+
 ## 2. Estrutura Básica
 
 ```bash
@@ -50,8 +52,10 @@ Documentação [**docker build**](https://docs.docker.com/engine/reference/comma
 ```bash
 docker run -it --name nginx5 nginx:1.1
 ```
-
-![Dockerfile, Imagem e Container](../imgs/dockerfile_image_container.png "Dockerfile, Imagem e Container")
+Iniciando o nginx:
+```bash
+/etc/init.d/nginx start
+```
 
 ## 3. Dockerfile servidor PostgreSQL
 
