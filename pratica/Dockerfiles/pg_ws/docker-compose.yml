@@ -14,4 +14,7 @@ services:
         image: "ws:1.0"
         networks:
             - pg_ws_network
+        depends_on:
+            - pg
+            
 
