@@ -81,5 +81,4 @@ Você pode fazer isso usando o git:
 git clone https://github.com/vconrado/mc9-worcap2018.git
 ``` 
 Ou fazendo download [nesse link](https://codeload.github.com/vconrado/mc9-worcap2018/zip/master).
--->
 
