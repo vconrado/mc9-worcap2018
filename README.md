@@ -7,7 +7,7 @@
  
 **Ministrantes:**  
 - [Vitor Conrado Faria Gomes](http://lattes.cnpq.br/2864513791602949), CAP/INPE  
-- [Raphael Willian da Costa](http://lattes.cnpq.br/7394226786935007), DATAINFO
+- [Raphael Willian da Costa](http://lattes.cnpq.br/7394226786935007), FUNCATE/INPE
 - [Gilberto Ribeiro de Queiroz](http://lattes.cnpq.br/9981634193003068), DPI/INPE
 
 **Resumo**:  
