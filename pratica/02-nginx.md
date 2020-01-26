@@ -67,8 +67,8 @@ docker commit nginx1 nginx:1.0
 
 Removendo ...
 ```bash
-docker stop nginx
-docker rm nginx
+docker stop nginx1
+docker rm nginx1
 docker ps -a
 ```
 
