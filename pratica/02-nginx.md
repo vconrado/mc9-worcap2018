@@ -123,7 +123,7 @@ docker attach nginx5
 
 ## 8. Saindo do container sem finalizá-lo
 ```bash
-Ctrl+p+q
+Ctrl+p + Ctrl+q
 ```
 
 ## 9. Executando novo terminal em container em execução
